@@ -1,0 +1,13 @@
+// Topic 2: Data Types
+
+let personName = "Vivek"; //String
+let age = 25;       //Number
+let isTester = true;//boolean
+let salary = null;  //null
+let address;        //undefined
+
+console.log(typeof personName);
+console.log(typeof age);
+console.log(typeof isTester);
+console.log(salary);
+console.log(address);
