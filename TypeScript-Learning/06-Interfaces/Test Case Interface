@@ -1,0 +1,31 @@
+interface TestCase {
+    testID: number;
+    testName: string;
+    status: string;
+    isAutomated: boolean;
+}
+
+const testCase1: TestCase = {
+    testID: 101,
+    testName: "Login Test",
+    status: "Pass",
+    isAutomated: true
+};
+
+const testCase2: TestCase = {
+    testID: 102,
+    testName: "Search Test",
+    status: "PASS",
+    isAutomated: true
+};
+
+const testCase3: TestCase = {
+    testID: 103,
+    testName: "Search Test",
+    status: "PASS",
+    isAutomated: true
+}
+
+console.log(testCase1);
+console.log(testCase2);
+console.log(testCase3);
